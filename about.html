@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About Us</title>
+      <link rel="stylesheet" href="STYLES/nav.css">
+      <link rel="stylesheet" href="STYLES/about.css">
+   </head>
+   <body>
+    <nav style="display: flex; justify-content: space-between; align-items: center;">
+      <img style="width: 10%;" src="ASSETS/logo.png">
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    
+      <div class="nav-links" style="font-size: 3vh;">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="community.html">Community</a>
+        <a href="pollstat.html">Pollution</a>
+      </div>
+    </nav>
+    <div id='content'>
+      <div id = 'img'>
+        <img id="photo" src="https://source.unsplash.com/random">
+       </div>
+      <div class="text-wrapper">
+      <h1>About TravelDo</h1>
+        <p id='ourtext'>Here at TravelDo we try our best to make your trip the most memorable by providing you all the services of transport and mobility in the city. We also help you know the pollution status and the carbon you will emit during your trip to make you careful and attentive towards the planet.</p>
+        <a href='https://google.com' target = '_blank'>
+        <button>Travel Now</button>
+        </a>
+      </div>
+    </div>
+      <script>document.querySelector('.hamburger').addEventListener('click', () => {
+        document.querySelector('.nav-links').classList.toggle('expanded');
+      });
+      Footer
+    </script>
+   </body>
+</html>
